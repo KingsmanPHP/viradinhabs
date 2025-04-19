@@ -58,10 +58,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw; /* largura da viewport */
   height: 100%;
+  max-width: 100%;
   border: none;
 }
+
 
         .container {
             width: 100%;
@@ -117,10 +119,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: inline-block;
 }
 
-.proof-img {
-    width: 100%;
-    height: auto;
-}
 
 .sound-toggle {
     position: absolute;
