@@ -189,7 +189,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 margin: 15px auto;
                 display: block;
             }
-        }
+        }.vimeo-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vimeo-video {
+  width: auto;
+  height: 90vh; /* altura proporcional à tela */
+  max-height: 100vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
     </style>
 </head>
 <body>
@@ -211,18 +224,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="https://vaultvision.cash" class="btn-telegram" onclick="fbq('track', 'Lead'); return true;">ACESSAR O SITE USADO NO ESQUEmA</a>
         
         <p class="urgency">⚠️ ATENÇÃO: Veja o vídeo até o final e aprenda o Esquema!</p>
-        <div class="img-container">
-<div class="iframe-wrapper">
-  <iframe 
-    title="vimeo-player"
+<div class="vimeo-video-container">
+  <iframe
     src="https://player.vimeo.com/video/1076976611?h=5f3e4b5d0e"
     frameborder="0"
     allowfullscreen
-    class="proof-iframe"
+    class="vimeo-video"
   ></iframe>
 </div>
 
-        </div>
         
       
     </div>
